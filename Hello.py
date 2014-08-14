@@ -1,0 +1,7 @@
+print('Hello Person!!!!')
+age = input("How old are you? ")
+print(age)
+name = input("What is your name? ")            
+print("Hello " + name)       
+sex = input("Are you a boy or a girl? ")
+print("So, you are " + age "your name is " + name "and you are a " + sex)

@@ -1,0 +1,84 @@
+print("Hello, welcome, today i will be asking you some questions")
+name = input("First i would like to ask your name. ").lower().strip()
+print("Hello, " + name)
+print("How about i get to know you a little more, " + name)
+age = input("How old are you? ")
+print("Alright, moving on. ")
+sex = input("Are you a boy or a girl? ")
+print("Only a couple more questions, hang in there! ")
+color = input("What is your favorite color? ")
+if color == 'blue':
+    print("Nice choice! ")
+print("Moving on now")
+pet = input(" Do you have a pet? ").lower().strip()
+print("Thanks! Thats it! Now to the quiz! ")
+
+#--------------------------------------------------
+
+print(" Lets start.")
+print("This quiz is about, dogs")
+domestic = input("Is the domestic dog a carnivore, omnivore, or herbivore? ").lower().strip()
+if domestic == 'carnivore':
+    print("Sorry, incorrect.")
+elif domestic == 'omnivore':
+    print("Correct! ")
+elif domestic == 'herbivore':
+    print("Sorry, incorrect.")
+else:
+    print("Sorry that is not an answer!")
+print("Next question! ")
+
+#-----------------------------------------------------
+
+vision = input('''True or false, like most mammals, dogs have color vision which is similar to red-green
+color blindness in humans.''').lower().strip()
+if vision == 'true':
+    print("Correct! ")
+elif vision == 'false':
+    print("Sorry, incorrect.")
+else:
+    print("Sorry, that is not an answer!")
+print("Next question! ")
+    
+#--------------------------------------------------
+
+sense = input("What is a dog's most powerful sense, sight, smell, touch, taste, or hear? ").lower().strip()
+if sense == 'sight':
+    print("Sorry, incorrect.")
+elif sense == 'smell':
+    print("Correct!")
+elif sense == 'touch':
+    print("Sorry, incorrect.")    
+elif sense == 'taste':
+    print("Sorry, incorrect.") 
+elif sense == 'hear':
+    print("Sorry, incorrect.")
+else:
+    print("Sorry, that is not an answer!")
+
+#----------------------------------------------------
+    
+hear = input("Who has better hearing, a dog or a human? ").lower().strip()
+if hear == 'dog':
+    print("Correct!")
+elif hear == 'human':
+          print("Sorry, incorrect.")
+else:
+          print("Sorry, that is not an answer!")
+
+#-------------------------------------------------------
+
+print("Last question!")
+tall = input("True or false, the world's tallest dog stands over 150cm in height.").lower().strip()
+if tall == 'true':
+    print("Sorry, incorrect.")
+elif tall == 'false':
+    print("Correct!")
+else:
+    print("Sorry, that is not an answer!")
+    
+#----------------------------------------------------------
+
+print("Thanks for playing, " + name)
+print('''For more questions or the ones i used go to
+http://www.sciencekids.co.nz/quizzes/dog.html!!!! Thanks!''')

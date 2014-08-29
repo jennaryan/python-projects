@@ -1,0 +1,6 @@
+
+no = ('no','nope','no this is patrick','nuh uh')
+
+krusty_krab = input("Is this the Krusty Krab?").lower().strip()
+if krusty_krab.startswith(no):
+    print("No this is patrick")

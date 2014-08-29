@@ -1,0 +1,24 @@
+
+import time
+
+no = ('no','nope','no this is patrick','nuh uh')
+
+krusty_krab = input("Is this the Krusty Krab?").lower().strip()
+if krusty_krab.startswith(no):
+    print("No this is Patrick")
+    time.sleep(1)
+    krusty_krab2 = input("Is this the Krusty Krab?")
+if krusty_krab.startswith(no):
+    print("NO this is Patrick!")
+    time.sleep(1)
+    krusty_krab3 = input("Is this the Krusty Krab?")
+if krusty_krab.startswith(no):
+    print("NO. THIS IS PATRICK!!!!")
+    time.sleep(2)
+    print("I am not a Krusty Krab D:")
+
+
+    
+    
+
+    

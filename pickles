@@ -1,0 +1,20 @@
+import time
+
+yeah = ('yes','totally','yup','mhm','yeah')
+
+print("Pickles!")
+time.sleep(1)
+print("Pickles!")
+time.sleep(1)
+print("The pickle song!")
+time.sleep(1)
+pickles = input("Do you like pickles?").lower().strip()
+if pickles.startswith(yeah):
+    print("Pickles!")
+    time.sleep(1)
+    print("Pickles!")
+    time.sleep(1)
+    print("The pickle song!")
+else:
+    print("Oh... uh....")                  
+                      

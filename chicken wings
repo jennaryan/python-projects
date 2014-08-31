@@ -1,0 +1,9 @@
+import time
+
+print("Chicken wings! Chicken wings!")
+time.sleep(0.5)
+print("Hotdog and bolgna!")
+time.sleep(0.5)
+print("Chicken and macearoni!")
+time.sleep(0.5)
+print("Chilin with my homies!")

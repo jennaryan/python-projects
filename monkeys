@@ -1,0 +1,14 @@
+import time
+
+yeah = ('yeah!','yeah','yes','totally','mhm')
+
+print("YEAH YEAH YEAH")
+time.sleep(1)
+monkeys = input("Do you like monkeys?").lower().strip()
+if monkeys.startswith(yeah):
+        print("Monkeys yeah!")
+
+else:
+        print("Okay.....")
+
+

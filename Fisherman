@@ -1,0 +1,14 @@
+import random
+
+import time
+
+caught = ('You caught a boot','You caught a bass','You caught a sun fish','You caught seaweed','You caught a cat fish','BONUS: You caught a shark!!!!!')
+
+print("You cast your rod")
+time.sleep(3)
+print("You got a nibble, but still nothing.....")
+time.sleep(5)
+print("A tug! Pull! PULL!!!!!!")
+time.sleep(1)
+fish = random.choice(caught)
+print(fish)
